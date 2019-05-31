@@ -11,10 +11,6 @@
 	compatible = "airtight,c-65", "qca,qca9558";
 
 	aliases {
-		led-boot = &power;
-		led-failsafe = &power;
-		led-running = &power;
-		led-upgrade = &power;
 		mdio-gpio0 = &mdio2;
 	};
 
