@@ -17,6 +17,8 @@ Flashing Instructions:
 13. Wait about 150 seconds for the router to flash (if you interrupt the power - you can brick it, however it is 80% recoverable if you repeat from step 5)
 14. You just gave a new life to your Mojo Networks C-65 Wireless Access Point. Enjoy and considre donating to the project.
 
+Back to original firmware:
+1. Flash the file you had backed up in step 9 of flashing instructions.
 
 Known limitations in this release:
 1. Wireless 5G LED behavior is inverted (steady "on" means the radio is disabled).
