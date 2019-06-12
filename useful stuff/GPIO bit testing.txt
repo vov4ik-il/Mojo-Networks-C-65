@@ -1,0 +1,32 @@
+0 - 1- Power Orange/0- "Power" OFF
+1 - nothing 01 1
+2 - 1- 2.4G Green/0- 2.4G OFF
+3 - nothing 01 1
+4 - not permitted 0
+5 - persistent 1 1
+6 -  persistent 0 0
+7 -  persistent 0 0
+8 - not permitted 0
+9 - not permitted 1
+10 - persistent 1 1
+11 - nothing 01 0
+12 - not permitted 1
+13 - not permitted 1
+14 - nothing 01 0
+15 - 1- Ethernet OFF/ 0 Ethernet Green 0
+16 - nothing 01 0
+17 - not permitted Reset Button!
+18 - nothing 01 0
+19 - nothing 01 0
+20 - nothing 01 0
+21 - nothing 01 0
+22 - not permitted 0
+23 - nothing 01 0
+24 - persistent 0 0
+25 - persistent 0 0
+26 - persistent 0 0
+27 - persistent 0 0
+28 - persistent 0 0
+29 - persistent 1 1
+30 - persistent 0 0
+31 - persistent 0 0

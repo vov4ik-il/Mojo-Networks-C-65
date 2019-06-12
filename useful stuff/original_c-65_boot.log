@@ -1,0 +1,893 @@
+U-Boot 1.1.4--LSDK-10.2.85 (Sep  3 2014 - 16:45:27)
+
+EAP1018A1-FLF-FW - Scorpion 1.0
+
+DRAM:  128 MB
+
+cpu_pll_cfg: 0x21480  cpu_pll_dither: 0x3c103f
+CFG_PLL_FREQ: 0x2  CFG_HZ: 360000000
+CPU Clock: 720MHz    DDR Clock: 680MHz
+
+Flash Manuf Id 0xc2, DeviceId0 0x20, DeviceId1 0x18
+flash size 16MB, sector count = 256
+flash-2 size 16MB, sector count = 256
+Flash: 16 *2 MB
+In:    serial
+Out:   serial
+Err:   serial
+Net:   ath_gmac_enet_initialize...
+athrs_sgmii_res_cal: cal value = 0x1
+Fetching MAC Address from 0x87fedb6c
+ath_gmac_enet_initialize: reset mask:c02200
+Scorpion  ----> 8035 PHY *
+: cfg1 0x80000000 cfg2 0x7114
+eth0: 00:11:74:ED:20:3F
+ATHR_AUTONEG_ADVERT:1DE1
+ATHR_1000BASET_CONTROL:200
+ATHR_PHY_CONTROL:3100
+ATHRSF1_PHY: Port 5, Neg Success
+ATHRSF1_PHY: unit 0 phy addr 5 eth0 up
+eth0
+Setting 0x18116290 to 0x1020214f
+Hit any key to stop autoboot:  0
+multiboot=1
+Trying eth0
+eth0 link down
+FAIL
+Using eth0 device
+TFTP from server 192.168.1.100; our IP address is 192.168.1.1
+Filename 'c65_atnboot.bin'.
+Load address: 0x81000000
+Loading: Tx Timed out
+T Tx Timed out
+
+Retry count exceeded; starting again
+## Booting image at 9f060000 ...
+   Image Name:   Linux Kernel Image
+   Created:      2019-04-17   7:00:31 UTC
+   Image Type:   MIPS Linux Kernel Image (lzma compressed)
+   Data Size:    1045318 Bytes = 1020.8 kB
+   Load Address: 80002000
+   Entry Point:  80223070
+   Verifying Checksum at 0x9f060040 ...OK
+   Uncompressing Kernel Image ... OK
+No initrd
+## Transferring control to Linux (at address 80223070) ...
+## Giving linux memsize in bytes, 134217728
+
+Starting kernel ...
+
+MOJO DEBUG_LOG [595] [start_kernel]
+DEBUG_LOG [600] [setup_arch]
+DEBUG_LOG [497] [arch_mem_init]
+DEBUG_LOG [501] [arch_mem_init]
+DEBUG_LOG [504] [arch_mem_init]
+DEBUG_LOG [506] [arch_mem_init]
+DEBUG_LOG [511] [arch_mem_init]
+DEBUG_LOG [515] [arch_mem_init]
+DEBUG_LOG [519] [arch_mem_init]
+DEBUG_LOG [284] [bootmem_init]
+DEBUG_LOG [324] [bootmem_init]
+DEBUG_LOG [352] [bootmem_init]
+DEBUG_LOG [359] [bootmem_init]
+DEBUG_LOG [387] [bootmem_init]
+DEBUG_LOG [426] [bootmem_init]
+DEBUG_LOG [432] [bootmem_init]
+DEBUG_LOG [437] [bootmem_init]
+DEBUG_LOG [521] [arch_mem_init]
+DEBUG_LOG [523] [arch_mem_init]
+DEBUG_LOG [330] [paging_init]
+DEBUG_LOG [332] [paging_init]
+DEBUG_LOG [340] [paging_init]
+DEBUG_LOG [365] [paging_init]
+DEBUG_LOG [367] [paging_init]
+DEBUG_LOG [525] [arch_mem_init]
+DEBUG_LOG [602] [setup_arch]
+DEBUG_LOG [605] [setup_arch]
+DEBUG_LOG [607] [setup_arch]
+DEBUG_LOG [599] [start_kernel]
+DEBUG_LOG [601] [start_kernel]
+DEBUG_LOG [603] [start_kernel]
+DEBUG_LOG [605] [start_kernel]
+DEBUG_LOG [607] [start_kernel]
+DEBUG_LOG [609] [start_kernel]
+DEBUG_LOG [612] [start_kernel]
+DEBUG_LOG [614] [start_kernel]
+DEBUG_LOG [617] [start_kernel]
+DEBUG_LOG [619] [start_kernel]
+DEBUG_LOG [623] [start_kernel]
+DEBUG_LOG [628] [start_kernel]
+DEBUG_LOG [630] [start_kernel]
+DEBUG_LOG [632] [start_kernel]
+DEBUG_LOG [634] [start_kernel]
+DEBUG_LOG [636] [start_kernel]
+DEBUG_LOG [638] [start_kernel]
+DEBUG_LOG [645] [start_kernel]
+DEBUG_LOG [651] [start_kernel]
+DEBUG_LOG [659] [start_kernel]
+DEBUG_LOG [661] [start_kernel]
+DEBUG_LOG [664] [start_kernel]
+DEBUG_LOG [666] [start_kernel]
+DEBUG_LOG [668] [start_kernel]
+DEBUG_LOG [670] [start_kernel]
+DEBUG_LOG [672] [start_kernel]
+DEBUG_LOG [674] [start_kernel]
+DEBUG_LOG [676] [start_kernel]
+DEBUG_LOG [678] [start_kernel]
+DEBUG_LOG [680] [start_kernel]
+DEBUG_LOG [682] [start_kernel]
+DEBUG_LOG [689] [start_kernel]
+DEBUG_LOG [691] [start_kernel]
+DEBUG_LOG [693] [start_kernel]
+DEBUG_LOG [697] [start_kernel]
+DEBUG_LOG [700] [start_kernel]
+DEBUG_LOG [708] [start_kernel]
+DEBUG_LOG [709] [start_kernel]
+DEBUG_LOG [716] [start_kernel]
+DEBUG_LOG [718] [start_kernel]
+DEBUG_LOG [726] [start_kernel]
+DEBUG_LOG [729] [start_kernel]
+DEBUG_LOG [739] [start_kernel]
+DEBUG_LOG [742] [start_kernel]
+DEBUG_LOG [744] [start_kernel]
+DEBUG_LOG [746] [start_kernel]
+DEBUG_LOG [748] [start_kernel]
+DEBUG_LOG [750] [start_kernel]
+DEBUG_LOG [752] [start_kernel]
+DEBUG_LOG [754] [start_kernel]
+DEBUG_LOG [756] [start_kernel]
+DEBUG_LOG [762] [start_kernel]
+DEBUG_LOG [764] [start_kernel]
+DEBUG_LOG [766] [start_kernel]
+DEBUG_LOG [768] [start_kernel]
+DEBUG_LOG [778] [start_kernel]
+DEBUG_LOG [780] [start_kernel]
+DEBUG_LOG [782] [start_kernel]
+DEBUG_LOG [784] [start_kernel]
+DEBUG_LOG [786] [start_kernel]
+DEBUG_LOG [788] [start_kernel]
+DEBUG_LOG [790] [start_kernel]
+DEBUG_LOG [792] [start_kernel]
+DEBUG_LOG [794] [start_kernel]
+DEBUG_LOG [796] [start_kernel]
+DEBUG_LOG [798] [start_kernel]
+DEBUG_LOG [801] [start_kernel]
+DEBUG_LOG [803] [start_kernel]
+DEBUG_LOG [805] [start_kernel]
+DEBUG_LOG [807] [start_kernel]
+DEBUG_LOG [809] [start_kernel]
+DEBUG_LOG [811] [start_kernel]
+DEBUG_LOG [813] [start_kernel]
+DEBUG_LOG [815] [start_kernel]
+DEBUG_LOG [818] [start_kernel]
+DEBUG_LOG [821] [start_kernel]
+DEBUG_LOG [824] [start_kernel]
+cpu apb ddr apb ath_sys_frequency: cpu 720 ddr 680 ahb 240
+flash_size passed from bootloader = 16
+arg 1: console=ttyS0,115200
+arg 2: root=31:03
+arg 3: rootfstype=jffs2
+arg 4: init=/sbin/init
+arg 5: mtdparts=ath-nor0:256k(u-boot),128k(uboot-env),2048k(kernel),13888k(rootfs),64k(ART);ath-nor1:16M(opt)
+arg 6: mem=128M
+CPU revision is: 00019750 (MIPS 74Kc)
+Determined physical RAM map:
+ memory: 02000000 @ 00000000 (usable)
+User-defined physical RAM map:
+ memory: 08000000 @ 00000000 (usable)
+Initrd not found or empty - disabling initrd
+Zone PFN ranges:
+  Normal   0x00000000 -> 0x00008000
+Movable zone start PFN for each node
+early_node_map[1] active PFN ranges
+    0: 0x00000000 -> 0x00008000
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Kernel command line: console=ttyS0,115200 root=31:03 rootfstype=jffs2 init=/sbin/init mtdparts=ath-nor0:256k(u-boot),128k(uboot-env),2048k(kernel),13888k(rootfs),64k(ART);ath-nor1:16M(opt) mem=128M
+PID hash table entries: 512 (order: 9, 2048 bytes)
+Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Primary instruction cache 64kB, VIPT, 4-way, linesize 32 bytes.
+Primary data cache 32kB, 4-way, VIPT, cache aliases, linesize 32 bytes
+Writing ErrCtl register=00000000
+Readback ErrCtl register=00000000
+Memory: 112356k/131072k available (2199k kernel code, 18544k reserved, 586k data, 164k init, 0k highmem)
+NR_IRQS:128
+plat_time_init: plat time init done
+Console: colour dummy device 80x25
+Calibrating delay loop... 359.42 BogoMIPS (lpj=718848)
+Mount-cache hash table entries: 512
+
+****************ALLOC***********************
+ Packet mem: 802f9700 (0xe00000 bytes)
+********************************************
+
+NET: Registered protocol family 16
+ath_pcibios_init: bus 0
+ath_pcibios_init(255): PCI 0 CMD write: 0x356
+registering PCI controller with io_map_base unset
+ath_pcibios_init: bus 1
+***** Warning PCIe 1 H/W not found !!!
+registering PCI controller with io_map_base unset
+bio: create slab <bio-0> at 0
+SCSI subsystem initialized
+pci 0000:00:00.0: PME# supported from D0 D1 D3hot
+pci 0000:00:00.0: PME# disabled
+pcibios_map_irq: IRQ 75 for bus 0
+NET: Registered protocol family 2
+IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+TCP: Hash tables configured (established 4096 bind 4096)
+TCP reno registered
+NET: Registered protocol family 1
+ATH GPIOC major 0
+JFFS2 version 2.2 (NAND) (ZLIB) (RTIME) (c) 2001-2006 Red Hat, Inc.
+fuse init (API version 7.12)
+msgmni has been set to 219
+alg: No test for stdrng (krng)
+io scheduler noop registered
+io scheduler deadline registered (default)
+Serial: 8250/16550 driver, 1 ports, IRQ sharing disabled
+serial8250.0: ttyS0 at MMIO 0xb8020000 (irq = 19) is a 16550A
+console [ttyS0] enabled
+brd: module loaded
+5 cmdlinepart partitions found on MTD device ath-nor0
+Creating 5 MTD partitions on "ath-nor0":
+0x000000000000-0x000000040000 : "u-boot"
+0x000000040000-0x000000060000 : "uboot-env"
+0x000000060000-0x000000260000 : "kernel"
+0x000000260000-0x000000ff0000 : "rootfs"
+0x000000ff0000-0x000001000000 : "ART"
+1 cmdlinepart partitions found on MTD device ath-nor1
+Creating 1 MTD partitions on "ath-nor1":
+0x000001000000-0x000002000000 : "opt"
+TCP cubic registered
+NET: Registered protocol family 17
+Bridge firewalling registered
+802.1Q VLAN Support v1.8 Ben Greear <greearb@candelatech.com>
+All bugs added by David S. Miller <davem@redhat.com>
+arch/mips/atheros/gpio.c (ath_simple_config_init) JUMPSTART_GPIO: 17
+athwdt_init: Registering WDT success
+ath_otp_init: Registering OTP success
+VFS: Mounted root (jffs2 filesystem) readonly on device 31:3.
+Freeing unused kernel memory: 164k freed
+Warning: unable to open an initial console.
+qca955x_GMAC: Length per segment 1536
+955x_GMAC: qca955x_gmac_attach
+955x_GMAC: qca955x_set_gmac_caps
+Currently in polling mode unit0
+mac0 registering f1e .....
+qca955x_GMAC: RX TASKLET - Pkts per Intr:160
+qca955x_GMAC: Mac address for unit 0:bfff0000
+qca955x_GMAC: 00:11:74:ED:20:3F
+qca955x_GMAC: Max segments per packet :   1
+qca955x_GMAC: Max tx descriptor count :   128
+qca955x_GMAC: Max rx descriptor count :   224
+qca955x_GMAC: Mac capability flags    :   2380
+athr_gmac_ring_alloc Allocated 2048 at 0x87909000
+sram_desc_cnt 1536,mac Unit 0,Tx r->ring_desc 0xbd000000
+athr_gmac_ring_alloc Allocated 3584 at 0x87971000
+sram_desc_cnt 4224,mac Unit 0,Rx r->ring_desc 0xbd000600
+955x_GMAC: eth0 in RGMII MODE
+Scorpion -----> F1e PHY..
+Setting Drop CRC Errors, Pause Frames and Length Error frames
+Setting PHY...
+ATHR_AUTONEG_ADVERT:DE1
+ATHR_1000BASET_CONTROL:200
+ATHR_PHY_CONTROL:1000
+ATHRSF1_PHY: Port 5, Neg Success
+ATHRSF1_PHY: unit 0 phy addr 5
+NET: Registered protocol family 10
+ADDRCONF(NETDEV_UP): eth0: link is not ready
+device eth0 entered promiscuous mode
+led_driver: module license 'Proprietary' taints kernel.
+Disabling lock debugging due to kernel taint
+LED driver initializing
+apmode is 1
+Initializing broadcast multicast optimization module****Address of trace_timer :87b9d084
+ath_hal: 0.9.17.1 (AR5416, AR9380, DEBUG, REGOPS_FUNC, WRITE_EEPROM, TX_DATA_SWAP, RX_DATA_SWAP, 11D)
+ath_rate_atheros: Copyright (c) 2001-2005 Atheros Communications, Inc, All Rights Reserved
+ath_dfs: Version 2.0.0
+Copyright (c) 2005-2006 Atheros Communications, Inc. All Rights Reserved
+ath_dev: Copyright (c) 2001-2007 Atheros Communications, Inc, All Rights Reserved
+ath_ahb: 10.2.2.83 (Atheros/multi-bss)
+__ath_attach: Set global_scn[0]
+*** All the minfree values should be <= ATH_TXBUF-32, otherwise default value will be used instead ***
+ACBKMinfree = 48
+ACBEMinfree = 32
+ACVIMinfree = 16
+ACVOMinfree = 0
+CABMinfree = 48
+UAPSDMinfree = 0
+ATH_TXBUF=512
+Bootstrap clock 40MHz
+Enterprise mode: 0x33fc0000
+Restoring Cal data from Flash
+Setup Background Scanning queue=1,(BK=0)
+Green-AP : Green-AP : Attached
+
+ath_get_caps[6436] rx chainmask mismatch actual 3 sc_chainmak 0
+ath_get_caps[6411] tx chainmask mismatch actual 3 sc_chainmak 0
+ath_attach_dfs[12930] dfsdomain 1
+ATN RF Neighbor Table init done!
+atn_apc_init: INIT APC
+ath_tx_paprd_init sc 86848000 PAPRD disabled in HAL
+SC Callback Registration for wifi0
+wifi0: Atheros ???: mem=0xb8100000, irq=2
+ath_pci: 10.2.2.83 (Atheros/multi-bss)
+ath_pci_probe
+PCI device id is 003c :003c
+ath_pci 0000:00:00.0: ath DEBUG: sc=0x86afcc00
+
+ ol_ath_pci_configure : num_desired MSI set to 0
+
+ Using PCI Legacy Interrupt
+CE_per_engine_handler_adjust, base=86afcc00 offset=57400
+CE_per_engine_handler_adjust, base=86afcc00 offset=57800
+__ol_ath_attach: ath_attach TODO
+__ol_ath_attach: dev name wifi1
+ol_ath_set_default_tgt_config : AC Minfree buffer allocation through module param (umac.ko)
+ OL_ACBKMinfree : 0
+ OL_ACBEMinfree : 0
+ OL_ACVIMinfree : 0
+ OL_ACVOMinfree : 0
+ol_ath_attach() BMI inited.
+ol_ath_attach() BMI Get Target Info.
+ol_ath_attach() TARGET TYPE: 7 Vers 0x4100016c
+NUM_DEV=1 FWMODE=0x2 FWSUBMODE=0x0 FWBR_BUF 0
+ol_ath_attach() configure Target .
+qc98xx_verify_checksum: flash checksum passed: 0x7999
+ol_transfer_bin_file 2139: Download Flash data len 2116
+ol_transfer_bin_file 2069: Download Firmware data len 228864
+ol_ath_attach() Download FW.
+ol_ath_attach() HT Create .
+ol_ath_attach() HIF Claim.
+ol_ath_attach() BMI Done.
+ol_ath_attach() WMI attached. wmi_handle 86be0000
++HWT
+SOC_RESET_CONTROL_ADDRESS : 800
+CPU_INTR_ADDRESS = [2000000]
+SOC_GLOBAL_RESET_ADDRESS = [0]
+Rx_Filter : [0]
+CE_per_engine_handler_adjust, base=86afcc00 offset=57400
+CE_per_engine_handler_adjust, base=86afcc00 offset=57800
+CE_per_engine_handler_adjust, base=86afcc00 offset=57c00
+CE_per_engine_handler_adjust, base=86afcc00 offset=58000
+CE_per_engine_handler_adjust, base=86afcc00 offset=58400
+CE_per_engine_handler_adjust, base=86afcc00 offset=58800
+CE_recv_buf_enqueue 653 Populate last entry 512 for CE 5
+CE_recv_buf_enqueue 662 CE 5 wi 511 dest_ptr 0x5aaf20 nbytes 0 recv_ctxt 0x86bde760
+-HWT
+HTC Service:0x0300 ep:1 TX flow control disabled
+CE_pkt_dl_len_set CE 4 Pkt download length 64
+ol_txrx_pdev_attach: 1424 tx desc's allocated ; range starts from 85e90000
+HTC Service:0x0100 ep:2 TX flow control disabled
+wmi_service_ready_event_rx:  WMI UNIFIED SERVICE READY event
+num_rf_chain : 00000002
+ht_cap_info: : 0000085b
+vht_cap_info : 338001b2
+vht_supp_mcs : 0000fffa
+LARGE_AP enabled. num_peers 126, num_vdevs 16, num_tids 220
+idx 0 req 1  num_units 0 num_unit_info 2 unit size 444 actual units 127
+chunk 0 len 56388 requested ,ptr  0x5ea0000
+FIRMWARE:P 127 V 16 T 389
+
+FIRMWARE:_wlan_rtt_enable
+wmi_ready_event_rx:  WMI UNIFIED READY event
+ol_ath_connect_htc() WMI is ready
+ol_ath_set_host_app_area TODO
+target uses HTT version 2.1; host uses 2.1
+ol_ath_attach() connect HTC.
+bypasswmi : 0
+ol_regdmn_start: reg-domain param: regdmn=0, countryName=, wModeSelect=FFFFFFFF, netBand=FFFFFFFF, extendedChanMode=0.
+ol_regdmn_init_channels: !avail mode 0x1f9001 (0x2) flags 0x2150
+ol_regdmn_init_channels: !avail mode 0x1f9001 (0x4) flags 0xa0
+ol_regdmn_init_channels: !avail mode 0x1f9001 (0x8) flags 0xc0
+ol_regdmn_init_channels: !avail mode 0x1f9001 (0x20) flags 0xd0
+ol_regdmn_init_channels: !avail mode 0x1f9001 (0x40) flags 0x150
+ol_regdmn_init_channels: !avail mode 0x1f9001 (0x800) flags 0x10080
+ol_regdmn_init_channels: !avail mode 0x1f9001 (0x2000) flags 0x20080
+ol_regdmn_init_channels: !avail mode 0x1f9001 (0x4000) flags 0x40080
+Add VHT80 channel: 4950
+Add VHT80 channel: 5030
+Add VHT80 channel: 5200
+Add VHT80 channel: 5210
+Add VHT80 channel: 5290
+Add VHT80 channel: 5530
+Add VHT80 channel: 5610
+Add VHT80 channel: 5690
+[ol_regdmn_add_vht80_chan][1184] vht80_ch overlimit=8
+Skipping VHT80 channel 5740
+Skipping VHT80 channel 5760
+Skipping VHT80 channel 5745
+Skipping VHT80 channel 5765
+Skipping VHT80 channel 5785
+Skipping VHT80 channel 5805
+Skipping VHT80 channel 5825
+Skipping VHT80 channel 5845
+Skipping VHT80 channel 5865
+ol_ath_phyerr_attach: called
+OL Resmgr Init-ed
+Green-AP : Green-AP : Attached
+
+Green-AP : Attached
+ol_if_dfs_setup: called
+ol_if_dfs_attach: called; ptr=85e8d974, radar_info=879fbbf0
+ol_ath_rtt_meas_report_attach: called
+ol_scan_update_channel_list: 0 channel 052 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 1 channel 056 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 2 channel 060 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 3 channel 064 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 4 channel 036 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 5 channel 040 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 6 channel 044 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 7 channel 048 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 8 channel 034 flags 00010100 info 00000804
+ol_scan_update_channel_list: 9 channel 038 flags 00010100 info 00000804
+ol_scan_update_channel_list: 10 channel 042 flags 00010100 info 00000804
+ol_scan_update_channel_list: 11 channel 046 flags 00010100 info 00000804
+ol_scan_update_channel_list: 12 channel 144 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 13 channel 149 flags 00200100 info 00001809
+ol_scan_update_channel_list: 14 channel 153 flags 00400100 info 00001809
+ol_scan_update_channel_list: 15 channel 157 flags 00200100 info 00001809
+ol_scan_update_channel_list: 16 channel 161 flags 00400100 info 00001809
+ol_scan_update_channel_list: 17 channel 165 flags 00100100 info 00001808
+ol_scan_update_channel_list: 18 channel 100 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 19 channel 104 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 20 channel 108 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 21 channel 112 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 22 channel 116 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 23 channel 120 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 24 channel 124 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 25 channel 128 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 26 channel 132 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 27 channel 136 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 28 channel 140 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 29 channel 208 flags 00010100 info 00000804
+ol_scan_update_channel_list: 30 channel 212 flags 00010100 info 00000804
+ol_scan_update_channel_list: 31 channel 216 flags 00010100 info 00000804
+ol_scan_update_channel_list: 32 channel 184 flags 00010100 info 00000804
+ol_scan_update_channel_list: 33 channel 188 flags 00010100 info 00000804
+ol_scan_update_channel_list: 34 channel 192 flags 00010100 info 00000804
+ol_scan_update_channel_list: 35 channel 196 flags 00010100 info 00000804
+ol_scan_update_channel_list: 36 channel 169 flags 00200100 info 00001809
+ol_scan_update_channel_list: 37 channel 173 flags 00400100 info 00001809
+ol_ath_attach() UMAC attach .
+ol_ath_attach: Calling ol_if_dfs_configure
+ol_ath_attach: Initialise APC hash table
+__ol_ath_attach: init tx/rx TODO
+__ol_ath_attach: hard_header_len reservation 58
+SC Callback Registration for wifi1
+[wifi1] FWLOG: [80391] WAL_DBGID_TX_AC_BUFFER_SET ( 0x3, 0x1e, 0x460, 0x460, 0x0 )
+[wifi1] FWLOG: [80391] WAL_DBGID_TX_AC_BUFFER_SET ( 0x12, 0x1e, 0x460, 0x460, 0x0 )
+[wifi1] FWLOG: [80391] WAL_DBGID_TX_AC_BUFFER_SET ( 0x45, 0x1e, 0x460, 0x460, 0x0 )
+[wifi1] FWLOG: [80391] WAL_DBGID_TX_AC_BUFFER_SET ( 0x67, 0x1e, 0x460, 0x460, 0x0 )
+[wifi1] FWLOG: [80396] WHAL_ERROR_RECV_STOPPCU ( 0x110298a, 0x3 )
+[wifi1] FWLOG: [80396] WHAL_ERROR_RESET_PM (  )
+[wifi1] FWLOG: [80826] ANI Enable:  1
+Initializing Pktlogs for 11ac
+ath_attach_dfs[12930] dfsdomain 1
+isCountryCodeValid: EEPROM regdomain 0x0
+ol_regdmn_init_channels: !avail mode 0x1f9001 (0x2) flags 0x2150
+ol_regdmn_init_channels: !avail mode 0x1f9001 (0x4) flags 0xa0
+ol_regdmn_init_channels: !avail mode 0x1f9001 (0x8) flags 0xc0
+ol_regdmn_init_channels: !avail mode 0x1f9001 (0x20) flags 0xd0
+ol_regdmn_init_channels: !avail mode 0x1f9001 (0x40) flags 0x150
+ol_regdmn_init_channels: !avail mode 0x1f9001 (0x800) flags 0x10080
+ol_regdmn_init_channels: !avail mode 0x1f9001 (0x2000) flags 0x20080
+ol_regdmn_init_channels: !avail mode 0x1f9001 (0x4000) flags 0x40080
+Add VHT80 channel: 5210
+Add VHT80 channel: 5290
+Add VHT80 channel: 5530
+Add VHT80 channel: 5610
+Add VHT80 channel: 5690
+Add VHT80 channel: 5775
+Skipping VHT80 channel 5825
+ol_scan_update_channel_list: 0 channel 052 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 1 channel 056 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 2 channel 060 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 3 channel 064 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 4 channel 036 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 5 channel 040 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 6 channel 044 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 7 channel 048 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 8 channel 034 flags 00010100 info 00000804
+ol_scan_update_channel_list: 9 channel 038 flags 00010100 info 00000804
+ol_scan_update_channel_list: 10 channel 042 flags 00010100 info 00000804
+ol_scan_update_channel_list: 11 channel 046 flags 00010100 info 00000804
+ol_scan_update_channel_list: 12 channel 144 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 13 channel 149 flags 00200100 info 00001809
+ol_scan_update_channel_list: 14 channel 153 flags 00400100 info 00001809
+ol_scan_update_channel_list: 15 channel 157 flags 00200100 info 00001809
+ol_scan_update_channel_list: 16 channel 161 flags 00400100 info 00001809
+ol_scan_update_channel_list: 17 channel 165 flags 00100100 info 00001808
+ol_scan_update_channel_list: 18 channel 100 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 19 channel 104 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 20 channel 108 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 21 channel 112 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 22 channel 116 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 23 channel 120 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 24 channel 124 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 25 channel 128 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 26 channel 132 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 27 channel 136 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 28 channel 140 flags 00800100 info 0000180a
+ol_scan_update_channel_list: 29 channel 208 flags 00010100 info 00000804
+ol_scan_update_channel_list: 30 channel 212 flags 00010100 info 00000804
+ol_scan_update_channel_list: 31 channel 216 flags 00010100 info 00000804
+ol_scan_update_channel_list: 32 channel 184 flags 00010100 info 00000804
+ol_scan_update_channel_list: 33 channel 188 flags 00010100 info 00000804
+ol_scan_update_channel_list: 34 channel 192 flags 00010100 info 00000804
+ol_scan_update_channel_list: 35 channel 196 flags 00010100 info 00000804
+ol_scan_update_channel_list: 36 channel 169 flags 00200100 info 00001809
+ol_scan_update_channel_list: 37 channel 173 flags 00400100 info 00001809
+wlan_vap_create : enter. devhandle=0x85c002c0, opmode=IEEE80211_M_HOSTAP, flags=0x8001
+wlan_vap_create : exit. devhandle=0x85c002c0, opmode=IEEE80211_M_HOSTAP, flags=0x8001.
+VAP device mon0 created osifp: (85f612c0) os_if: (85f80000)
+initialise_atn_info: Initialising background scanning.
+mon0: atn_init DONE
+ath_ioctl: SIOC80211IFCREATE CALLED
+wmi_unified_vdev_create_send: ID = 8 VAP Addr = 00:11:74:ed:20:38:
+VAP device mon1 created osifp: (85f92ac0) os_if: (85f9c000)
+initialise_atn_info: Initialising background scanning.
+mon1: atn_init DONE
+[68]  ATN_SS /ioctl_set_atn_ss_params: (____) roam_init_rssi_threshold -75 roam_init_interval_threshold 10 roam_init_packets_threshold 5
+[68]  ATN_SS /ioctl_set_atn_ss_params: (____) roam_init_rssi_threshold -75 roam_init_interval_threshold 10 roam_init_packets_threshold 5
+Initialising Reset Sensor module
+Netfilter messages via NETLINK v0.30.
+nf_conntrack version 0.5.0 (2048 buckets, 8192 max)
+CONFIG_NF_CT_ACCT is deprecated and will be removed soon. Please use
+nf_conntrack.acct=1 kernel parameter, acct=1 nf_conntrack module option or
+sysctl net.netfilter.nf_conntrack_acct=1 to enable it.
+ip_tables: (C) 2000-2006 Netfilter Core Team
+GRE over IPv4 tunneling driver
+Registering Iptalbe WCMASK module
+GRE over IPv6 tunneling driver
+ ip6gre_init_net GRE over IPv6 tunneling driver 1.1
+ ip6gre_init_net GRE over IPv6 tunneling driver 1.2 ip6gre_net_id[5]
+ ip6gre_init_net GRE over IPv6 tunneling driver 1.3
+ ip6gre_init_net GRE over IPv6 tunneling driver 1.4
+ ip6gre_init_net GRE over IPv6 tunneling driver 1.5
+ ip6gre_init_net GRE over IPv6 tunneling driver 1.6
+ ip6gre_init_net GRE over IPv6 tunneling driver 1.7
+ ip6gre_init_net GRE over IPv6 tunneling driver 1.8
+u32 classifier
+    Actions configured
+Mirror/redirect action on
+wifi0 DCS for CW interference mitigation:   0
+wifi0 DCS for WLAN interference mitigation: 1
+wifi0: ieee80211_acs_set_param 2298 disabling DCS sleep timer (if it was running)
+wifi0 mon0: DCS sleep time set to 1800 sec
+wifi1 OL DCS for CW interference mitigation:   0
+wifi1 OL DCS for WLAN interference mitigation: 1
+wifi1: ieee80211_acs_set_param 2298 disabling DCS sleep timer (if it was running)
+wifi1 mon1: DCS sleep time set to 1800 sec
+ol_ath_wmm_update:
+ol_ath_wmm_update:
+ol_ath_wmm_update:
+ol_ath_wmm_update:
+[75]  ATN_TPC /ioctl_set_atn_auto_tpc: (____) [Auto TPC]: Disabling Auto TPC
+[76]  ATN_TPC /ioctl_set_atn_auto_tpc: (____) [Auto TPC]: Disabling Auto TPC
+wlan_vap_create : enter. devhandle=0x85c002c0, opmode=IEEE80211_M_HOSTAP, flags=0x1
+wlan_vap_create : exit. devhandle=0x85c002c0, opmode=IEEE80211_M_HOSTAP, flags=0x1.
+VAP device ath0 created osifp: (853302c0) os_if: (85fa8000)
+ath0, ioctl_set_atn_flags: WMM Admission Control Policy Enforcement Disabled
+ath0, ioctl_set_atn_flags: Hotspot2.0: Disabling QoS Map set
+Set SSID Profile ID=31631 for VAP=ath0ath0: Setting Max Stations:127
+ath0: ioctl_set_acs_chans: passed ACS candidate channel list 1,6,11
+WARNING: Fragmentation with HT mode NOT ALLOWED!!
+ ieee80211_ioctl_siwmode: imr.ifm_active=131712, new mode=3, valid=1
+[85]  ATN_SS /ioctl_set_atn_flags: (ath0) Smart steering enabled
+[85]  ATN_SS /ioctl_set_atn_flags: (ath0) Assoc control enabled
+[85]  ATN_SS /atn_node_ht_timer_init: (____) setting up ht timer
+ath0: Multicast snoop is Enabled
+device ath0 entered promiscuous mode
+Set NAT=1 for VAP=ath0 ieee80211_ioctl_siwmode: imr.ifm_active=131712, new mode=3, valid=1
+Set SSID Profile ID=31631 for VAP=ath0
+Set TUNNEL ID=0 for VAP=ath0
+wifi0: ath_net80211_set_channel: setting apchan to 1
+wifi0: Channel change, clear nonwifi counters, Current counter 0ath_ioctl: SIOC80211IFCREATE CALLED
+wmi_unified_vdev_create_send: ID = 0 VAP Addr = 00:11:74:ed:20:30:
+VAP device ath1 created osifp: (8534cac0) os_if: (85368000)
+wifi0: ath_net80211_set_channel: setting apchan to 2
+wifi0: Channel change, clear nonwifi counters, Current counter 0
+wifi0: ath_net80211_set_channel: setting apchan to 3
+wifi0: Channel change, clear nonwifi counters, Current counter 0
+ath1, ioctl_set_atn_flags: WMM Admission Control Policy Enforcement Disabled
+ath1, ioctl_set_atn_flags: Hotspot2.0: Disabling QoS Map set
+Set SSID Profile ID=31631 for VAP=ath1ath1: Setting Max Stations:127
+ath1: ioctl_set_acs_chans: passed ACS candidate channel list 36,40,44,48,149,153,157,161,165
+WARNING: Fragmentation with HT mode NOT ALLOWED!!
+ ieee80211_ioctl_siwmode: imr.ifm_active=66176, new mode=3, valid=1
+OL vap_stop +
+vap-0: ol_ath_vap_stopping 1356 avn->av_ol_resmgr_wait 0
+wmi_unified_vdev_stop_send for vap 0 (86be0000)
+OL vap_stop -
+STOPPED EVENT for vap 0 (86be0000)
+wifi0: ath_net80211_set_channel: setting apchan to 4
+wifi0: Channel change, clear nonwifi counters, Current counter 0
+[88]  ATN_SS /ioctl_set_atn_flags: (ath1) Smart steering enabled
+[88]  ATN_SS /ioctl_set_atn_flags: (ath1) Assoc control enabled
+[88]  ATN_SS /atn_node_ht_timer_init: (____) setting up ht timer
+ath1: Multicast snoop is Enabled
+wifi0: ath_net80211_set_channel: setting apchan to 5
+wifi0: Channel change, clear nonwifi counters, Current counter 0
+wifi0: ath_net80211_set_channel: setting apchan to 6
+wifi0: Channel change, clear nonwifi counters, Current counter 0
+device ath1 entered promiscuous mode
+Set NAT=1 for VAP=ath1 ieee80211_ioctl_siwmode: imr.ifm_active=66176, new mode=3, valid=1
+Set SSID Profile ID=31631 for VAP=ath1
+Set TUNNEL ID=0 for VAP=ath1
+wifi0: ath_net80211_set_channel: setting apchan to 7
+wifi0: Channel change, clear nonwifi counters, Current counter 0OL vap_stop +
+vap-0: ol_ath_vap_stopping 1356 avn->av_ol_resmgr_wait 0
+wmi_unified_vdev_stop_send for vap 0 (86be0000)
+OL vap_stop -
+STOPPED EVENT for vap 0 (86be0000)
+[wifi1] FWLOG: [105445] WAL_DBGID_SECURITY_ENCR_EN (  )
+[wifi1] FWLOG: [105445] WAL_DBGID_SECURITY_MCAST_KEY_SET ( 0x1 )
+[wifi1] FWLOG: [105446] WAL_DBGID_SECURITY_MCAST_KEY_SET ( 0x2 )
+wifi0: ath_net80211_set_channel: setting apchan to 8
+wifi0: Channel change, clear nonwifi counters, Current counter 0
+wifi0: ath_net80211_set_channel: setting apchan to 9
+wifi0: Channel change, clear nonwifi counters, Current counter 0
+wifi0: ath_net80211_set_channel: setting apchan to 10
+wifi0: Channel change, clear nonwifi counters, Current counter 0
+wifi0: ath_net80211_set_channel: setting apchan to 11
+wifi0: Channel change, clear nonwifi counters, Current counter 0
+wifi0: ath_net80211_set_channel: setting apchan to 1
+wifi0: Channel change, clear nonwifi counters, Current counter 0Sending Vap Down event to user-space
+
+ieee80211_acs_find_ap_score: ACS chan: 1 ap_score: 30 Total busy = 36% nonwifi = 3%
+ieee80211_acs_find_ap_score: ACS chan: 2 ap_score: 10 Total busy = 23% nonwifi = 2%
+ieee80211_acs_find_ap_score: ACS chan: 3 ap_score: 50 Total busy = 16% nonwifi = 1%
+ieee80211_acs_find_best_11ng_centerchan: Channel: 1 Total ap_score: 90 non-wifi percentage 3%
+
+ieee80211_acs_find_ap_score: ACS chan: 4 ap_score: 0 Total busy = 25% nonwifi = 3%
+ieee80211_acs_find_ap_score: ACS chan: 5 ap_score: 0 Total busy = 19% nonwifi = 2%
+ieee80211_acs_find_ap_score: ACS chan: 6 ap_score: 30 Total busy = 39% nonwifi = 1%
+ieee80211_acs_find_ap_score: ACS chan: 7 ap_score: 0 Total busy = 20% nonwifi = 1%
+ieee80211_acs_find_ap_score: ACS chan: 8 ap_score: 0 Total busy = 19% nonwifi = 2%
+ieee80211_acs_find_best_11ng_centerchan: Channel: 6 Total ap_score: 30 non-wifi percentage 3%
+
+ieee80211_acs_find_ap_score: ACS chan: 9 ap_score: 0 Total busy = 35% nonwifi = 4%
+ieee80211_acs_find_ap_score: ACS chan: 10 ap_score: 0 Total busy = 52% nonwifi = 1%
+ieee80211_acs_find_ap_score: ACS chan: 11 ap_score: 50 Total busy = 44% nonwifi = 2%
+ieee80211_acs_find_best_11ng_centerchan: Channel: 11 Total ap_score: 50 non-wifi percentage 4%
+
+ieee80211_acs_find_best_channel_list: AP average score 56 list_count 3
+
+ACS: Sorted list: final_list_count = 3
+indx 5   channel 6       apscore 30
+indx 10  channel 11      apscore 50
+indx 0   channel 1       apscore 90
+ieee80211_acs_find_best_channel_list: is5Ghz_list? = 0
+
+ACS: List of channels to be scanned: num_scan_chans 3
+indx 5   channel 6       apscore 30
+indx 10  channel 11      apscore 50
+indx 0   channel 1       apscore 90
+******** ACS report ********
+ Channel | BSS/MojoAp  | minrssi | maxrssi | NF | Ch load | spect load | sec_chan
+---------------------------------------------------------------------
+ 2412(  1)    4/   0        7        18   -110      36           0          0
+ 2417(  2)    1/   0       11        11   -110      23           0          0
+ 2422(  3)    1/   0       68        68   -111      15           0          0
+ 2427(  4)    0/   0        0         0   -110      25           0          0
+ 2432(  5)    0/   0        0         0   -110      20           0          0
+ 2437(  6)    6/   0        1        19   -110      37           0          0
+ 2442(  7)    0/   0        0         0   -110      21           0          0
+ 2447(  8)    0/   0        0         0   -120      21           0          0
+ 2452(  9)    0/   0        0         0   -110      36           0          0
+ 2457( 10)    0/   0        0         0   -109      54           0          0
+ 2462( 11)    5/   0        8        20   -110      45           0          0
+
+ACS: Scanning Channel Where No Mojo AP is present 6
+ACS: Trigger scan for ic_freq 2437 Channel 6
+wifi0: ath_net80211_set_channel: setting apchan to 6
+wifi0: Channel change, clear nonwifi counters, Current counter 0
+natbr31631: port 2(ath1) entering learning state
+natbr31631: port 1(ath0) entering learning state
+wifi0: ath_net80211_set_channel: setting apchan to 1
+wifi0: Channel change, clear nonwifi counters, Current counter 0Sending Vap Down event to user-space
+
+ACS: Found best 2.4GHz center chan: 6
+ACS: Post event triggered with Channel : 6wifi0: wlan_set_channel 1525 starting timer. Disabling DCS for 1800 sec, curr time 93
+wifi0: ath_net80211_set_channel: setting apchan to 6
+wifi0: Channel change, clear nonwifi counters, Current counter 0Sending Vap UP event to user-space
+
+ACS: Init First boot Acs
+------------[ cut here ]------------
+WARNING: at kernel/softirq.c:148 local_bh_enable+0x90/0xec()
+Modules linked in:
+ ifb act_police act_mirred sch_htb sch_tbf sch_ingress cls_u32 ip6_gre ip6_tunnel tunnel6 iptable_WCMASK xt_CONNMARK xt_connmark iptable_PKT_MANGLE(P) nf_nat_pptp nf_nat_proto_gre nf_conntrack_pptp nf_conntrack_proto_gre iptable_CONTANALYTICS(P) ip_gre xt_physdev xt_mark ipt_MASQUERADE ipt_REDIRECT iptable_nat nf_nat_ftp nf_nat nf_conntrack_ipv4 nf_defrag_ipv4 ipt_REJECT iptable_mangle iptable_filter ip_tables xt_conntrack xt_state nf_conntrack_ftp nf_conntrack nfnetlink_queue xt_tcpudp xt_multiport xt_mac xt_NFQUEUE xt_MARK x_tables nfnetlink reset_sensor(P) ath_pktlog(P) umac ath_dev(P) ath_dfs(P) ath_rate_atheros(P) ath_hal(P) asf(P) adf(P) broadcast_multicast_opt(P) led_driver(P) ipv6 athrs_gmac
+Call Trace:
+[<80224988>] dump_stack+0x8/0x34
+[<800276f0>] warn_slowpath_common+0x70/0xb0
+[<8002da44>] local_bh_enable+0x90/0xec
+[<8594f300>] atn_apc_packet_handler+0x90c/0xa3c [umac]
+[<85825a14>] atn_bgscan_rx_proc+0x578/0xe5c [umac]
+[<8681cda4>] atn_bgscan_tx+0x90/0xf0 [ath_dev]
+[<86804048>] ath_beacon_tasklet+0x3d0/0xad8 [ath_dev]
+[<858c0e14>] ath_intr_aponly+0x4d4/0x5bc [umac]
+[<858c0f2c>] ath_isr_aponly+0x30/0x114 [umac]
+[<80051184>] handle_IRQ_event+0x90/0x17c
+[<80052d88>] handle_percpu_irq+0x48/0xb4
+[<800062b8>] ath_dispatch_wlan_intr+0x68/0xe0
+[<80006b0c>] ret_from_irq+0x0/0x4
+[<869002b4>] ath_hal_reg_read+0x24/0x48 [ath_hal]
+[<8694b1bc>] ar9300_iq_calibration+0x2cc/0x42c [ath_hal]
+[<8694dd9c>] ar9300_calibration+0x86c/0xb28 [ath_hal]
+[<868136f4>] ath_calibrate+0x30c/0x1414 [ath_dev]
+[<8681b698>] _ath_internal_timer_handler+0x24/0x9c [ath_dev]
+[<80032370>] run_timer_softirq+0x154/0x224
+[<8002d67c>] __do_softirq+0xb0/0x158
+[<8002d790>] do_softirq+0x6c/0x74
+[<80003e6c>] plat_irq_dispatch+0x138/0x6fc
+[<80006b0c>] ret_from_irq+0x0/0x4
+[<8008db2c>] __d_lookup+0xc0/0x164
+[<8008329c>] do_lookup+0x40/0x234
+[<80084a8c>] __link_path_walk+0x470/0x1124
+[<80085a58>] path_walk+0x88/0x12c
+[<80085c64>] do_path_lookup+0x68/0x70
+[<80086b00>] do_filp_open+0xd0/0x9e8
+[<800800c8>] open_exec+0x2c/0xb8
+[<80080690>] do_execve+0x114/0x2c8
+[<8000b904>] sys_execve+0x4c/0x78
+[<8000ffe4>] stack_done+0x20/0x3c
+
+---[ end trace aec78652a8729172 ]---
+
+mon0: Acs First Boot Acs Enabled 1
+Disabling ipv6 on vap
+Disabling ipv6 on vap
+Sending Vap Down event to user-space
+
+ieee80211_acs_find_best_11na_centerchan: ACS chan: 36 ap_score: 12 Total busy = 0% nonwifi = 0%
+
+ieee80211_acs_find_best_11na_centerchan: ACS chan: 40 ap_score: 12 Total busy = 0% nonwifi = 0%
+
+ieee80211_acs_find_best_11na_centerchan: ACS chan: 44 ap_score: 50 Total busy = 0% nonwifi = 0%
+
+ieee80211_acs_find_best_11na_centerchan: ACS chan: 48 ap_score: 25 Total busy = 0% nonwifi = 0%
+
+ieee80211_acs_find_best_11na_centerchan: ACS chan: 149 ap_score: 10 Total busy = 0% nonwifi = 0%
+
+ieee80211_acs_find_best_11na_centerchan: ACS chan: 153 ap_score: 5 Total busy = 0% nonwifi = 0%
+
+ieee80211_acs_find_best_11na_centerchan: ACS chan: 157 ap_score: 2 Total busy = 0% nonwifi = 0%
+
+ieee80211_acs_find_best_11na_centerchan: ACS chan: 161 ap_score: 2 Total busy = 5% nonwifi = 0%
+
+ieee80211_acs_find_best_channel_list: AP average score 14 list_count 8
+
+ACS: Sorted list: final_list_count = 8
+indx 22  channel 157     apscore 2
+indx 23  channel 161     apscore 2
+indx 21  channel 153     apscore 5
+indx 20  channel 149     apscore 10
+indx 0   channel 36      apscore 12
+indx 1   channel 40      apscore 12
+indx 3   channel 48      apscore 25
+indx 2   channel 44      apscore 50
+ieee80211_acs_find_best_channel_list: is5Ghz_list? = 1
+ieee80211_acs_find_best_channel_list: sorted chanlist's median channel 36 & its score 12
+
+ACS: List of channels to be scanned: num_scan_chans 8
+indx 22  channel 157     apscore 2
+indx 23  channel 161     apscore 2
+indx 21  channel 153     apscore 5
+indx 20  channel 149     apscore 10
+indx 0   channel 36      apscore 12
+indx 1   channel 40      apscore 12
+indx 3   channel 48      apscore 25
+indx 2   channel 44      apscore 50
+******** ACS report ********
+ Channel | BSS/MojoAp  | minrssi | maxrssi | NF | Ch load | spect load | sec_chan
+---------------------------------------------------------------------
+ 5180( 36)    1/   0        6         6   -102       1           0          0
+ 5200( 40)    0/   0        0         0   -101       1           0          1
+ 5220( 44)    1/   0       67        67   -102       1           0          0
+ 5240( 48)    0/   0        0         0   -100       1           0          1
+ 5260( 52)    0/   0        0         0   -100       1           0          0
+ 5280( 56)    0/   0        0         0   -101       2           0          0
+ 5300( 60)    1/   0       12        12    -99       1           0          0
+ 5320( 64)    0/   0        0         0   -100       1           0          1
+ 5500(100)    0/   0        0         0   -102       1           0          0
+ 5520(104)    0/   0        0         0   -101       1           0          0
+ 5540(108)    0/   0        0         0   -101       1           0          0
+ 5560(112)    0/   0        0         0   -101       1           0          0
+ 5580(116)    0/   0        0         0   -102       1           0          0
+ 5600(120)    0/   0        0         0   -103       1           0          0
+ 5620(124)    0/   0        0         0    -99       0           0          0
+ 5640(128)    0/   0        0         0    -97       1           0          0
+ 5660(132)    1/   0       17        17   -102       1           0          0
+ 5680(136)    0/   0        0         0   -101       1           0          1
+ 5700(140)    0/   0        0         0   -103       1           0          0
+ 5720(144)    0/   0        0         0    -98       0           0          0
+ 5745(149)    1/   0       14        14   -101       1           0          0
+ 5765(153)    0/   0        0         0   -100       1           0          1
+ 5785(157)    0/   0        0         0   -101       1           0          0
+ 5805(161)    0/   0        0         0   -100       6           0          0
+ 5825(165)    0/   0        0         0   -100       1           0          0
+
+ACS: Scanning Channel Where No Mojo AP is present 157
+ACS: Trigger scan for ic_freq 5785 Channel 157
+Sending Vap Down event to user-space
+
+ACS: Found best 5GHz center chan: 157
+ACS: Post event triggered with Channel : 157wifi1: wlan_set_channel 1525 starting timer. Disabling DCS for 1800 sec, curr time 105
+OL vap_start +
+vap-0: _ieee80211_resmgr_vap_start 172 avn->av_ol_resmgr_wait 1
+wmi_unified_vdev_start_send for vap 0 (86be0000)
+OL vap_start -
+
+ACS: Init First boot Acsvap-0: ol_vdev_wmi_event_handler 475 avn->av_ol_resmgr_wait 0
+ol_ath_wmm_update:
+Sending Vap UP event to user-space
+wmi_unified_vdev_up_send for vap 0 (86be0000)
+ol_ath_set_bgscan_active: Setting bgscan active to 0
+VAP device ath2 created osifp: (852d82c0) os_if: (85370000)
+ath2, ioctl_set_atn_flags: WMM Admission Control Policy Enforcement Disabled
+ath2, ioctl_set_atn_flags: Hotspot2.0: Disabling QoS Map set
+Set SSID Profile ID=31747 for VAP=ath2ath2: Setting Max Stations:127
+ath2: ioctl_set_acs_chans: passed ACS candidate channel list 1,6,11
+WARNING: Fragmentation with HT mode NOT ALLOWED!!
+ ieee80211_ioctl_siwmode: imr.ifm_active=393856, new mode=3, valid=1
+natbr31631: port 2(ath1) entering forwarding state
+natbr31631: port 1(ath0) entering forwarding state
+[108]  ATN_SS /ioctl_set_atn_flags: (ath2) Disabling Assoc control
+[108]  ATN_SS /atn_check_assoc_control: (____) Assoc control active in ic, dont stop cleanup timer
+ath2: Multicast snoop is Enabled
+device ath2 entered promiscuous mode
+Set NAT=1 for VAP=ath2 ieee80211_ioctl_siwmode: imr.ifm_active=393856, new mode=3, valid=1
+Sending Vap UP event to user-space
+Set SSID Profile ID=31747 for VAP=ath2
+Set TUNNEL ID=0 for VAP=ath2ath_ioctl: SIOC80211IFCREATE CALLED
+wmi_unified_vdev_create_send: ID = 1 VAP Addr = 00:11:74:ed:20:31:
+VAP device ath3 created osifp: (85341ac0) os_if: (85cc8000)
+ath3, ioctl_set_atn_flags: WMM Admission Control Policy Enforcement Disabled
+ath3, ioctl_set_atn_flags: Hotspot2.0: Disabling QoS Map set
+Set SSID Profile ID=31747 for VAP=ath3ath3: Setting Max Stations:127
+ath3: ioctl_set_acs_chans: passed ACS candidate channel list 36,40,44,48,149,153,157,161,165
+WARNING: Fragmentation with HT mode NOT ALLOWED!!
+ ieee80211_ioctl_siwmode: imr.ifm_active=18875008, new mode=3, valid=1
+OL vap_stop +
+vap-1: ol_ath_vap_stopping 1356 avn->av_ol_resmgr_wait 0
+wmi_unified_vdev_stop_send for vap 1 (86be0000)
+OL vap_stop -
+STOPPED EVENT for vap 1 (86be0000)
+[111]  ATN_SS /ioctl_set_atn_flags: (ath3) Disabling Assoc control
+[111]  ATN_SS /atn_check_assoc_control: (____) Assoc control active in ic, dont stop cleanup timer
+ath3: Multicast snoop is Enabled
+device ath3 entered promiscuous mode
+Set NAT=1 for VAP=ath3 ieee80211_ioctl_siwmode: imr.ifm_active=18875008, new mode=3, valid=1
+OL vap_stop +
+vap-1: ol_ath_vap_stopping 1356 avn->av_ol_resmgr_wait 0
+wmi_unified_vdev_stop_send for vap 1 (86be0000)
+OL vap_stop -
+STOPPED EVENT for vap 1 (86be0000)
+OL vap_start +
+vap-1: _ieee80211_resmgr_vap_start 172 avn->av_ol_resmgr_wait 1
+wmi_unified_vdev_start_send for vap 1 (86be0000)
+OL vap_start -
+vap-1: ol_vdev_wmi_event_handler 475 avn->av_ol_resmgr_wait 0
+Sending Vap UP event to user-space
+wmi_unified_vdev_up_send for vap 1 (86be0000)
+ol_ath_set_bgscan_active: Setting bgscan active to 0
+Set SSID Profile ID=31747 for VAP=ath3
+Set TUNNEL ID=0 for VAP=ath3
+natbr31747: port 2(ath3) entering learning state
+natbr31747: port 1(ath2) entering learning state
+Disabling ipv6 on vap
+Disabling ipv6 on vap
+Set value:1, second_auth_enabled:1 on vap
+Set value:1, second_auth_enabled:1 on vap
+ ieee80211_ioctl_kickmac[14113]
+ ieee80211_ioctl_kickmac[14113]
+natbr31747: port 2(ath3) entering forwarding state
+natbr31747: port 1(ath2) entering forwarding state
+Sensor Integrity Check: [PASSED]
+
+ (none) mips #1 Wed Apr 17 12:30:06 IST 2019 (none)
+(none) login:

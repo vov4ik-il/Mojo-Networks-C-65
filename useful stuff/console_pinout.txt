@@ -1,0 +1,4 @@
+conn8 = Linux console
+ ----------------
+| 1   2   3   4 | 
+ 3.3v GND TX  RX

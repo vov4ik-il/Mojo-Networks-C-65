@@ -1,0 +1,37 @@
+: cfg1 0x80000000 cfg2 0x7114
+eth0: 00:11:74:ed:20:3f
+ATHR_AUTONEG_ADVERT:1DE1
+ATHR_1000BASET_CONTROL:200
+ATHR_PHY_CONTROL:3100
+ATHRSF1_PHY: Port 5, Neg Success
+ATHRSF1_PHY: unit 0 phy addr 5 eth0 up
+eth0
+Setting 0x18116290 to 0x1020214f
+Hit any key to stop autoboot:  0
+airtight_C-65> printenv
+bootdelay=2
+baudrate=115200
+ethaddr=0x00:0xaa:0xbb:0xcc:0xdd:0xee
+dir=
+lu=tftp 0x80060000 ${dir}u-boot.bin&&erase 0x9f000000 +$filesize&&cp.b $fileaddr 0x9f000000 $filesize
+lf=tftp 0x80060000 ${dir}ap135_11ac_offload_f1e-jffs2&&erase 0x9f050000 +0xd00000&&cp.b $fileaddr 0x9f050000 $filesize
+lk=tftp 0x80060000 ${dir}vmlinux_11ac_offload_f1e.lzma.uImage&&erase 0x9fd50000 +$filesize&&cp.b $fileaddr 0x9fd50000 $filesize
+Board_SN=7072CF12341F
+AP_model_number=C-65
+filesize=1000000
+fileaddr=80060000
+bootargs=console=ttyS0,115200 root=31:03 rootfstype=jffs2 init=/sbin/init mtdparts=ath-nor0:256k(u-boot),128k(uboot-env),2048k(kernel),13888k(rootfs),64k(ART);ath-nor1:16M(opt)
+ethact=eth0
+ipaddr=192.168.9.240
+serverip=192.168.9.23
+multiboot=1
+bootcfg=set ipaddr 192.168.1.1;set serverip 192.168.1.100;set netretry no
+atnboot=set bootargs "console=ttyS0,115200 init=/sbin/init root=/dev/ram0 rw rd_start=0x81200000 rd_size=13M mtdparts=ath-nor0:256k(u-boot),128k(uboot-env),2048k(kernel),13312k(rootfs),576k(dummy),64k(ART);ath-nor1:16M(opt)";mw.l 1804002c 0;mw.l 1804000c 5;mw.l 18040010 8000;bootm 81000000
+artboot=mw.l 1804002c 0;mw.l 1804000c 8000;mw.l 18040010 5;mw.l 1804000c 1;bootm 9f060000
+bootsel=if tftp 81000000 c65_atnboot.bin;then if imi 81000000;then run atnboot;else run artboot;fi;else run artboot;fi
+bootcmd=if print multiboot&&test $multiboot = 1;then run bootcfg;run bootsel;else run artboot;fi
+stdin=serial
+stdout=seriallf
+stderr=serial
+
+Environment size: 1454/65532 bytes

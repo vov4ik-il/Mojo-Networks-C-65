@@ -1,0 +1,253 @@
+U-Boot 1.1.4--LSDK-10.2.85 (Sep  3 2014 - 16:45:27)
+
+EAP1018A1-FLF-FW - Scorpion 1.0
+
+DRAM:
+
+U-Boot 1.1.4--LSDK-10.2.85 (Sep  3 2014 - 16:45:27)
+
+EAP1018A1-FLF-FW - Scorpion 1.0
+
+DRAM:
+
+U-Boot 1.1.4--LSDK-10.2.85 (Sep  3 2014 - 16:45:27)
+
+EAP1018A1-FLF-FW - Scorpion 1.0
+
+DRAM:  128 MB
+
+cpu_pll_cfg: 0x21480  cpu_pll_dither: 0x3c103f
+CFG_PLL_FREQ: 0x2  CFG_HZ: 360000000
+CPU Clock: 720MHz    DDR Clock: 680MHz
+
+Flash Manuf Id 0xc2, DeviceId0 0x20, DeviceId1 0x18
+flash size 16MB, sector count = 256
+flash-2 size 16MB, sector count = 256
+Flash: 16 *2 MB
+In:    serial
+Out:   serial
+Err:   serial
+Net:   ath_gmac_enet_initialize...
+athrs_sgmii_res_cal: cal value = 0x1
+Fetching MAC Address from 0x87fedb6c
+ath_gmac_enet_initialize: reset mask:c02200
+Scorpion  ----> 8035 PHY *
+: cfg1 0x80000000 cfg2 0x7114
+eth0: 00:11:74:ed:20:3f
+ATHR_AUTONEG_ADVERT:1DE1
+ATHR_1000BASET_CONTROL:200
+ATHR_PHY_CONTROL:3100
+ATHRSF1_PHY: Port 5, Neg Success
+ATHRSF1_PHY: unit 0 phy addr 5 eth0 up
+eth0
+Setting 0x18116290 to 0x1020214f
+Hit any key to stop autoboot:  0
+multiboot=1
+Trying eth0
+eth0 link down
+FAIL
+Using eth0 device
+TFTP from server 192.168.1.100; our IP address is 192.168.1.1
+Filename 'c65_atnboot.bin'.
+Load address: 0x81000000
+Loading: Tx Timed out
+T Tx Timed out
+
+Retry count exceeded; starting again
+## Booting image at 9f060000 ...
+   Image Name:   MIPS OpenWrt Linux-4.14.121
+   Created:      2019-05-31  19:01:33 UTC
+   Image Type:   MIPS Linux Kernel Image (lzma compressed)
+   Data Size:    1618859 Bytes =  1.5 MB
+   Load Address: 80060000
+   Entry Point:  80060000
+   Verifying Checksum at 0x9f060040 ...OK
+   Uncompressing Kernel Image ... OK
+No initrd
+## Transferring control to Linux (at address 80060000) ...
+## Giving linux memsize in bytes, 134217728
+
+Starting kernel ...
+
+[    0.000000] Linux version 4.14.121 (osboxes@osboxes) (gcc version 7.4.0 (OpenWrt GCC 7.4.0 r10114-a1210f8888)) #0 Fri May 31 19:01:33 2019
+[    0.000000] bootconsole [early0] enabled
+[    0.000000] CPU0 revision is: 00019750 (MIPS 74Kc)
+[    0.000000] MIPS: machine is AirTight C-65
+[    0.000000] SoC: Qualcomm Atheros QCA9558 ver 1 rev 0
+[    0.000000] Determined physical RAM map:
+[    0.000000]  memory: 08000000 @ 00000000 (usable)
+[    0.000000] Initrd not found or empty - disabling initrd
+[    0.000000] Primary instruction cache 64kB, VIPT, 4-way, linesize 32 bytes.
+[    0.000000] Primary data cache 32kB, 4-way, VIPT, cache aliases, linesize 32 bytes
+[    0.000000] Zone ranges:
+[    0.000000]   Normal   [mem 0x0000000000000000-0x0000000007ffffff]
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x0000000000000000-0x0000000007ffffff]
+[    0.000000] Initmem setup node 0 [mem 0x0000000000000000-0x0000000007ffffff]
+[    0.000000] random: get_random_bytes called from start_kernel+0x90/0x478 with crng_init=0
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 32512
+[    0.000000] Kernel command line: console=ttyS0,115200 rootfstype=squashfs,jffs2
+[    0.000000] PID hash table entries: 512 (order: -1, 2048 bytes)
+[    0.000000] Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+[    0.000000] Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+[    0.000000] Writing ErrCtl register=00000000
+[    0.000000] Readback ErrCtl register=00000000
+[    0.000000] Memory: 123184K/131072K available (3792K kernel code, 151K rwdata, 912K rodata, 1216K init, 204K bss, 7888K reserved, 0K cma-reserved)
+[    0.000000] SLUB: HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] NR_IRQS: 51
+[    0.000000] CPU clock: 720.000 MHz
+[    0.000000] clocksource: MIPS: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 5309056796 ns
+[    0.000007] sched_clock: 32 bits at 360MHz, resolution 2ns, wraps every 5965232126ns
+[    0.008287] Calibrating delay loop... 358.80 BogoMIPS (lpj=1794048)
+[    0.074976] pid_max: default: 32768 minimum: 301
+[    0.080049] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.087086] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.097818] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+[    0.108312] futex hash table entries: 256 (order: -1, 3072 bytes)
+[    0.114852] pinctrl core: initialized pinctrl subsystem
+[    0.121112] NET: Registered protocol family 16
+[    0.131379] PCI host bridge /ahb/apb/pcie-controller@180c0000 ranges:
+[    0.138242]  MEM 0x0000000010000000..0x0000000011ffffff
+[    0.143824]   IO 0x0000000000000000..0x0000000000000000
+[    0.149676] PCI host bridge /ahb/apb/pcie-controller@18250000 ranges:
+[    0.156561]  MEM 0x0000000012000000..0x0000000013ffffff
+[    0.162113]   IO 0x0000000000000001..0x0000000000000001
+[    0.167675] ar724x-pci 18250000.pcie-controller: PCIe link is down
+[    0.186733] PCI host bridge to bus 0000:00
+[    0.191133] pci_bus 0000:00: root bus resource [mem 0x10000000-0x11ffffff]
+[    0.198443] pci_bus 0000:00: root bus resource [io  0x0000]
+[    0.204373] pci_bus 0000:00: root bus resource [??? 0x00000000 flags 0x0]
+[    0.211589] pci_bus 0000:00: No busn resource found for root bus, will use [bus 00-ff]
+[    0.220429] pci 0000:00:00.0: BAR 0: assigned [mem 0x10000000-0x101fffff 64bit]
+[    0.228222] pci 0000:00:00.0: BAR 6: assigned [mem 0x10200000-0x1020ffff pref]
+[    0.236048] PCI host bridge to bus 0000:01
+[    0.240404] pci_bus 0000:01: root bus resource [mem 0x12000000-0x13ffffff]
+[    0.247728] pci_bus 0000:01: root bus resource [io  0x0001]
+[    0.253648] pci_bus 0000:01: root bus resource [??? 0x00000000 flags 0x0]
+[    0.260871] pci_bus 0000:01: No busn resource found for root bus, will use [bus 01-ff]
+[    0.271291] clocksource: Switched to clocksource MIPS
+[    0.277448] NET: Registered protocol family 2
+[    0.282702] TCP established hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.290125] TCP bind hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.296925] TCP: Hash tables configured (established 1024 bind 1024)
+[    0.303787] UDP hash table entries: 256 (order: 0, 4096 bytes)
+[    0.310002] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+[    0.316892] NET: Registered protocol family 1
+[    0.323702] Crashlog allocated RAM at address 0x3f00000
+[    0.330148] workingset: timestamp_bits=30 max_order=15 bucket_order=0
+[    0.340858] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    0.347094] jffs2: version 2.2 (NAND) (SUMMARY) (LZMA) (RTIME) (CMODE_PRIORITY) (c) 2001-2006 Red Hat, Inc.
+[    0.363801] io scheduler noop registered
+[    0.367969] io scheduler deadline registered (default)
+[    0.375195] pinctrl-single 1804002c.pinmux: 544 pins at pa b804002c size 68
+[    0.383478] Serial: 8250/16550 driver, 1 ports, IRQ sharing disabled
+[    0.390780] console [ttyS0] disabled
+[    0.394645] 18020000.uart: ttyS0 at MMIO 0x18020000 (irq = 9, base_baud = 2500000) is a 16550A
+[    0.403833] console [ttyS0] enabled
+[    0.403833] console [ttyS0] enabled
+[    0.411237] bootconsole [early0] disabled
+[    0.411237] bootconsole [early0] disabled
+[    0.424280] m25p80 spi0.0: mx25l12805d (16384 Kbytes)
+[    0.429443] 4 fixed-partitions partitions found on MTD device spi0.0
+[    0.435915] Creating 4 MTD partitions on "spi0.0":
+[    0.440780] 0x000000000000-0x000000040000 : "u-boot"
+[    0.446463] 0x000000040000-0x000000060000 : "uboot-env"
+[    0.452401] 0x000000060000-0x000000ff0000 : "firmware"
+[    0.460154] 2 uimage-fw partitions found on MTD device firmware
+[    0.466197] Creating 2 MTD partitions on "firmware":
+[    0.471236] 0x000000000000-0x00000018b3eb : "kernel"
+[    0.476872] 0x00000018b3eb-0x000000f90000 : "rootfs"
+[    0.482518] mtd: device 4 (rootfs) set to be root filesystem
+[    0.488288] 1 squashfs-split partitions found on MTD device rootfs
+[    0.494591] 0x000000490000-0x000000f90000 : "rootfs_data"
+[    0.500645] 0x000000ff0000-0x000001000000 : "art"
+[    0.506899] libphy: Fixed MDIO Bus: probed
+[    0.512953] ag71xx 19000000.eth: invalid MAC address, using random address
+[    0.852980] libphy: ag71xx_mdio: probed
+[    0.952023] ag71xx 19000000.eth: connected to PHY at mdio-bus.0:05 [uid=004dd072, driver=Atheros 8035 ethernet]
+[    0.962770] eth0: Atheros AG71xx at 0xb9000000, irq 4, mode: rgmii-id
+[    0.970925] NET: Registered protocol family 10
+[    0.978413] Segment Routing with IPv6
+[    0.982244] NET: Registered protocol family 17
+[    0.986791] 8021q: 802.1Q VLAN Support v1.8
+[    0.997845] VFS: Mounted root (squashfs filesystem) readonly on device 31:4.
+[    1.008640] Freeing unused kernel memory: 1216K
+[    1.013260] This architecture does not have kernel memory protection.
+[    1.689177] init: Console is alive
+[    1.692834] init: - watchdog -
+[    2.401314] random: fast init done
+[    2.920292] kmodloader: loading kernel modules from /etc/modules-boot.d/*
+[    2.949229] kmodloader: done loading kernel modules from /etc/modules-boot.d/*
+[    2.957826] init: - preinit -
+[    4.104949] random: jshn: uninitialized urandom read (4 bytes read)
+[    4.215322] random: jshn: uninitialized urandom read (4 bytes read)
+[    4.252155] random: jshn: uninitialized urandom read (4 bytes read)
+[    4.528061] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Press the [f] key and hit [enter] to enter failsafe mode
+Press the [1], [2], [3] or [4] key and hit [enter] to select the debug level
+[    7.761409] mount_root: loading kmods from internal overlay
+[    7.798788] kmodloader: loading kernel modules from //etc/modules-boot.d/*
+[    7.806088] kmodloader: done loading kernel modules from //etc/modules-boot.d/*
+[    8.117796] block: attempting to load /etc/config/fstab
+[    8.124730] block: unable to load configuration (fstab: Entry not found)
+[    8.131689] block: no usable configuration
+[    8.136402] mount_root: jffs2 not ready yet, using temporary tmpfs overlay
+[    8.171106] urandom-seed: Seed file not found (/etc/urandom.seed)
+[    8.258050] procd: - early -
+[    8.261049] procd: - watchdog -
+[    8.859121] procd: - watchdog -
+[    8.862548] procd: - ubus -
+[    9.013083] urandom_read: 4 callbacks suppressed
+[    9.013089] random: ubusd: uninitialized urandom read (4 bytes read)
+[    9.035534] random: ubusd: uninitialized urandom read (4 bytes read)
+[    9.042376] random: ubusd: uninitialized urandom read (4 bytes read)
+[    9.049566] procd: - init -
+Please press Enter to activate this console.
+[    9.382136] kmodloader: loading kernel modules from /etc/modules.d/*
+[    9.404982] l2tp_core: L2TP core driver, V2.0
+[    9.410798] l2tp_netlink: L2TP netlink interface
+[    9.420842] ip6_tables: (C) 2000-2006 Netfilter Core Team
+[    9.432066] Netfilter messages via NETLINK v0.30.
+[    9.438932] ip_set: protocol 6
+[    9.470248] Loading modules backported from Linux version v4.19.32-0-g3a2156c839c7
+[    9.477960] Backport generated by backports.git v4.19.32-1-0-g1c4f7569
+[    9.488841] ip_tables: (C) 2000-2006 Netfilter Core Team
+[    9.503868] nf_conntrack version 0.5.0 (2048 buckets, 8192 max)
+[    9.588054] xt_time: kernel timezone is -0000
+[    9.763814] PPP generic driver version 2.4.2
+[    9.773034] NET: Registered protocol family 24
+[    9.799240] PCI: Enabling device 0000:00:00.0 (0000 -> 0002)
+[    9.805182] ath10k_pci 0000:00:00.0: pci irq legacy oper_irq_mode 1 irq_mode 0 reset_mode 0
+[   10.084492] ath10k_pci 0000:00:00.0: Direct firmware load for ath10k/pre-cal-pci-0000:00:00.0.bin failed with error -2
+[   10.095371] ath10k_pci 0000:00:00.0: Falling back to user helper
+[   10.188555] firmware ath10k!pre-cal-pci-0000:00:00.0.bin: firmware_loading_store: map pages failed
+[   10.197889] ath10k_pci 0000:00:00.0: Direct firmware load for ath10k/cal-pci-0000:00:00.0.bin failed with error -2
+[   10.208416] ath10k_pci 0000:00:00.0: Falling back to user helper
+[   10.467649] ath10k_pci 0000:00:00.0: Direct firmware load for ath10k/QCA988X/hw2.0/firmware-6.bin failed with error -2
+[   10.478540] ath10k_pci 0000:00:00.0: Falling back to user helper
+[   10.616005] firmware ath10k!QCA988X!hw2.0!firmware-6.bin: firmware_loading_store: map pages failed
+[   10.628983] ath10k_pci 0000:00:00.0: qca988x hw2.0 target 0x4100016c chip_id 0x043222ff sub 0000:0000
+[   10.638379] ath10k_pci 0000:00:00.0: kconfig debug 0 debugfs 1 tracing 0 dfs 1 testmode 1
+[   10.651403] ath10k_pci 0000:00:00.0: firmware ver 10.2.4-1.0-00043 api 5 features no-p2p,raw-mode,mfp,allows-mesh-bcast crc32 ed0aafd8
+[   10.744197] ath10k_pci 0000:00:00.0: Direct firmware load for ath10k/QCA988X/hw2.0/board-2.bin failed with error -2
+[   10.754805] ath10k_pci 0000:00:00.0: Falling back to user helper
+[   10.878855] firmware ath10k!QCA988X!hw2.0!board-2.bin: firmware_loading_store: map pages failed
+[   10.888090] ath10k_pci 0000:00:00.0: board_file api 1 bmi_id N/A crc32 bebc7c08
+[   12.005973] ath10k_pci 0000:00:00.0: htt-ver 2.1 wmi-op 5 htt-op 2 cal file max-sta 128 raw 0 hwcrypto 1
+[   12.193797] l2tp_ppp: PPPoL2TP kernel driver, V2.0
+[   12.301215] ieee80211 phy1: Atheros AR9550 Rev:0 mem=0xb8100000, irq=14
+[   12.311117] kmodloader: done loading kernel modules from /etc/modules.d/*
+[   38.181571] br-lan: port 1(eth0) entered blocking state
+[   38.186878] br-lan: port 1(eth0) entered disabled state
+[   38.192454] device eth0 entered promiscuous mode
+[   38.225751] IPv6: ADDRCONF(NETDEV_UP): br-lan: link is not ready
+[   39.778473] jffs2_scan_eraseblock(): End of filesystem marker found at 0x0
+[   39.820347] jffs2_build_filesystem(): unlocking the mtd device...
+[   39.820354] done.
+[   39.828603] jffs2_build_filesystem(): erasing all blocks after the end marker...
+[  115.586274] done.
+[  115.595848] jffs2: notice: (1544) jffs2_build_xattr_subsystem: complete building xattr subsystem, 0 of xdatum (0 unchecked, 0 orphan) and 0 of xref (0 dead, 0 orphan) found.
+[  115.911721] overlayfs: upper fs does not support tmpfile.
+[  130.561325] random: crng init done
+
